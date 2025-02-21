@@ -1,0 +1,216 @@
+.form__payment {
+  max-width: 960px;
+}
+
+.payment {
+  background-color: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.data__head,
+.method__head {
+  display: flex;
+  align-items: center;
+  padding: 35px 0;
+  background-color: #f9f9f9;
+}
+
+.data__head {
+  border-bottom: 1px dashed #928f94;
+}
+
+.data__title,
+.method__title {
+  margin-left: 35px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  color: #292929;
+}
+
+.data__inputs-names {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.data__name-label {
+  margin-top: 31px;
+}
+
+.data__name-label > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #292929;
+  margin-bottom: 11px;
+}
+
+.data__name-input {
+  width: 280px;
+  height: 50px;
+  border: 1px solid #928f94;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #292929;
+  text-transform: capitalize;
+}
+
+.data__inputs-phone {
+  margin-top: 54px;
+  margin-left: 35px;
+}
+
+.data__phone-label,
+.data__mail-label {
+  display: block;
+  width: 360px;
+}
+
+.data__phone-label > p,
+.data__mail-label > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #292929;
+  margin-bottom: 12px;
+}
+
+.data__phone-input,
+.data__mail-input {
+  width: 360px;
+  height: 50px;
+  border: 1px solid #928f94;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #292929;
+  padding-left: 10px;
+}
+
+.data__phone-input::placeholder,
+.data__mail-input::placeholder {
+  color: #c4c4c4;
+}
+
+.data__inputs-mail {
+  margin-top: 38px;
+  margin-left: 35px;
+}
+
+.payment__method {
+  margin-top: 88px;
+}
+
+.method__head {
+  border-top: 1px dashed #928f94;
+  border-bottom: 1px dashed #928f94;
+}
+
+.method__check-online {
+  display: flex;
+  margin: 50px auto 30px 35px;
+}
+
+.method__check-cash {
+  display: flex;
+  margin: 58px auto 82px 35px;
+}
+
+.method__check-input,
+.method__check-input-ok {
+  width: 28px;
+  height: 28px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.method__check-input {
+  border: 1px solid #928f94;
+}
+
+.method__check-input-ok {
+  border: 1px solid #ffa800;
+  background-image: url(../../assets/images/ok.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.method__check-text,
+.method__check-text-ok {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.method__check-text {
+  color: #928f94;
+}
+
+.method__check-text-ok {
+  color: #ffa800;
+}
+
+.methods__payment {
+  border-bottom: 1px dashed #928f94;
+}
+
+.methods__payment-text {
+  display: flex;
+  margin-left: 33px;
+  margin-bottom: 70px;
+}
+
+.methods__payment-text > p {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #292929;
+  width: auto;
+}
+
+.paypal {
+  margin-left: 107px;
+}
+
+.visa-qiwi {
+  margin-left: 128px;
+}
+
+.payment__button,
+.payment__button-ok {
+  display: block;
+  width: 323px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 116px;
+  margin-left: auto;
+}
+
+.payment__button-ok {
+  background-color: #ffa800;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+  }
+}
+
+.payment__button {
+  background-color: #928f94;
+  cursor: not-allowed;
+}

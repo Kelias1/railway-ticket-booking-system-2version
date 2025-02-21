@@ -1,0 +1,136 @@
+.bar__progress-section {
+  position: absolute;
+  bottom: -94px;
+  display: flex;
+  width: 100%;
+  min-height: 94px;
+  background-color: #3e3c41;
+  overflow: hidden;
+}
+
+.bar__progress-wrap {
+  width: 1490px;
+  height: 94px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.current__step {
+  background-color: #ffa800;
+}
+
+.progress__step-one,
+.progress__step-two,
+.progress__step-three,
+.progress__step-four {
+  width: 25%;
+  text-align: center;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: #ffa800;
+}
+
+.arrow::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 47px solid transparent;
+  border-bottom: 47px solid transparent;
+  position: absolute;
+  right: -40px;
+  top: 0;
+  border-left: 40px solid #ffa800;
+}
+
+.step__number {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  margin-right: 46px;
+  left: 17px;
+}
+
+.step__number > p {
+  position: absolute;
+  top: 4px;
+  left: 15px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.progress__step-two > .step__number {
+  margin-right: 90px;
+  left: 68px;
+}
+
+.progress__step-three > .step__number {
+  margin-right: 81px;
+  left: 57px;
+}
+
+.progress__step-four > .step__number {
+  margin-right: 71px;
+  left: 46px;
+}
+
+.step__desc {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  color: #fff;
+}
+
+.step__arrow {
+  position: absolute;
+  left: 95%;
+  height: 100%;
+  z-index: 1;
+}
+
+.arrow__top {
+  width: 24px;
+  height: 47px;
+  border-right: 2px solid #e5e5e5;
+  transform: skew(38deg);
+
+  top: -19px;
+  position: absolute;
+}
+
+.arrow__bottom {
+  width: 24px;
+  height: 47px;
+  border-right: 2px solid #e5e5e5;
+  transform: skew(-38deg);
+
+  position: absolute;
+  top: 26px;
+}
+
+.start__steps {
+  height: 100%;
+  width: 25%;
+  position: absolute;
+  background-color: #ffa800;
+  margin-left: -216px;
+}
+
+.end__steps {
+  height: 100%;
+}

@@ -1,0 +1,98 @@
+.siderbar__last-tickets {
+  margin-top: -1px;
+}
+
+.last-tickets__title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.last-tickets__list-item {
+  width: 360px;
+  height: 160px;
+  background: #fff;
+  border: 1px solid #c4c4c4;
+  box-shadow: 0 2px 2px #3e3c4140;
+  margin-bottom: 17px;
+}
+
+.item__from-to {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  margin: 18px 20px 24px;
+}
+
+.item__city {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #292929;
+}
+
+.item__station {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #928f94;
+  padding-top: 4px;
+}
+
+.item__to {
+  text-align: end;
+}
+
+.item__amenities-price {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 12px 14px 18px;
+}
+
+.item__amenities {
+  width: 92px;
+  height: 20px;
+  background-image: url(../../assets/images/amenities.png);
+  align-self: center;
+}
+
+.item__start-price {
+  display: flex;
+  align-items: baseline;
+}
+
+.price__start-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: right;
+  color: #928f94;
+}
+
+.price__start-value {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 35px;
+  color: #ffa800;
+  margin: 2px 5px;
+}
+
+.currency-symbol {
+  width: 22px;
+  height: 22px;
+  background-image: url(../../assets/images/currency-symbol.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: contain;
+  padding-top: 27px;
+}
+
+.currency-symbol {
+  width: 16px;
+  height: 19px;
+  background-image: url(../../assets/images/currency-symbol.png);
+}

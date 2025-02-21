@@ -1,0 +1,249 @@
+.order-complete__container {
+  background-color: #f7f5f9;
+  padding-bottom: 40px;
+}
+
+.order-complete__title {
+  position: relative;
+  left: 13.5%;
+  bottom: 161px;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 84px;
+  color: #ffffff;
+}
+
+.order-complete {
+  position: relative;
+  bottom: 128px;
+  left: 13.5%;
+  width: 86%;
+  max-width: 1404px;
+  background-color: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-shadow: 0px 2px 2px #00000040;
+}
+
+.order-complete__number-price {
+  display: flex;
+  padding: 52px 0;
+}
+
+.order__number {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: 80px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #3e3c41;
+}
+
+.order__price {
+  display: flex;
+  align-items: center;
+  margin-right: 78px;
+}
+
+.order__currency-symbol {
+  display: flex;
+  width: 21px;
+  height: 27px;
+  background-image: url(../../assets/images/currency-symbol.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  margin-left: 10px;
+  align-self: center;
+}
+
+.order__price-text {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px;
+  color: #928f94;
+  padding-right: 29px;
+}
+
+.order__price-number {
+  display: flex;
+}
+
+.order__price-number > p {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #3e3c41;
+}
+
+.order__info-wrap {
+  background-color: #f4f3f6;
+  padding-bottom: 5px;
+}
+
+.order__info {
+  display: flex;
+  max-width: 776px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.info__email-img,
+.info__print-img,
+.info__present-img {
+  width: 155px;
+  height: 155px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.info__email-img {
+  background-image: url(../../assets/images/order-email.png);
+}
+
+.info__print-img {
+  background-image: url(../../assets/images/order-print.png);
+}
+
+.info__present-img {
+  background-image: url(../../assets/images/order-present.png);
+}
+
+.order__info-email,
+.order__info-print,
+.order__info-present {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.order__info-email {
+  padding-left: 10px;
+}
+
+.order__info-text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: center;
+  color: #292929;
+}
+
+.order__name-wrap {
+  padding: 19px 0 134px 39px;
+}
+
+.order__name,
+.order__name-text,
+.order__thankfulness {
+  margin-left: 12%;
+}
+
+.order__name {
+  padding-top: 75px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #292929;
+  text-transform: capitalize;
+}
+
+.order__name-text {
+  margin-top: 38px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #292929;
+}
+
+.order__thankfulness {
+  margin-top: 86px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #292929;
+}
+
+.order__rating-wrap {
+  display: flex;
+  padding: 57px 0;
+  background-color: #ffb31f;
+}
+
+.order__rating {
+  display: flex;
+  margin-left: 83px;
+  margin-right: auto;
+  align-items: center;
+}
+
+.order__rating-text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #292929;
+}
+
+.order__rating-stars {
+  display: flex;
+  margin-left: 20px;
+  align-self: center;
+}
+
+.star__one,
+.star__two,
+.star__three,
+.star__four,
+.star__five,
+.star__one-check,
+.star__two-check,
+.star__three-check,
+.star__four-check,
+.star__five-check {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.star__one,
+.star__two,
+.star__three,
+.star__four,
+.star__five {
+  fill: #ffb31f;
+}
+
+.star__one-check,
+.star__two-check,
+.star__three-check,
+.star__four-check,
+.star__five-check {
+  fill: #ffffff;
+}
+
+.order-complete__btn {
+  width: 323px;
+  padding: 12px 0;
+  margin: auto 78px;
+  border: 1px solid #3e3c41;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #292929;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    border-color: #3e3c41;
+  }
+}

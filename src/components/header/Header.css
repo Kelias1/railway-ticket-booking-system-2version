@@ -1,0 +1,151 @@
+.header {
+  position: relative;
+  width: 100%;
+  min-height: 985px;
+}
+
+.header:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #ffaa00ac;
+  background-image: url(../../assets/images/main-back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scaleX(-1);
+  opacity: 0.89;
+}
+
+/* START header choice train */
+
+.header__choice-train {
+  display: flex;
+  position: relative;
+  width: 100%;
+  min-height: 596px;
+}
+
+.header__choice-train:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #ffaa00ac;
+  background-image: url(../../assets/images/back-choice-train.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.89;
+}
+
+.search__widget-choice {
+  display: flex;
+  flex-direction: column;
+  width: 77.6%;
+  margin: 14% 0 0 11.2%;
+  background-color: #0000009e;
+  z-index: 1;
+}
+
+/* END Header choice train */
+
+.header__logo {
+  position: absolute;
+  width: 100%;
+  height: 64px;
+  background-color: #000000;
+  opacity: 60%;
+}
+
+.header__logo-icon {
+  display: flex;
+  width: 104px;
+  margin-left: 13.5%;
+  margin-top: 14px;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 42px;
+  color: #e5e5e5;
+  cursor: pointer;
+}
+
+.header__logo-icon:hover {
+  color: #ffa800;
+  transition: color 0.3s;
+}
+
+.header__nav {
+  position: absolute;
+  width: 100%;
+  top: 60px;
+  background-color: #292929;
+}
+
+.header__nav-items {
+  display: flex;
+  margin: 30px 0 30px 13.5%;
+}
+
+.header__nav-item {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 35px;
+  color: #fff;
+  margin-right: 84px;
+}
+
+.header__nav-item:hover {
+  color: #ffa800;
+  transition: color 0.3s;
+}
+
+.header__title-container {
+  max-width: 506px;
+  position: relative;
+  top: 573px;
+  left: 18%;
+}
+
+.header__title {
+  position: absolute;
+  top: 58%;
+  left: 18.2%;
+  font-size: 72px;
+  font-weight: 100;
+  line-height: 84px;
+  color: #fff;
+}
+
+.header__title > span {
+  font-weight: 700;
+}
+
+.header__endline {
+  position: absolute;
+  width: 100%;
+  height: 8px;
+  bottom: 0;
+  background: #ffa800;
+}
+
+/* ------header order complete------ */
+.header__order-complete {
+  position: relative;
+  min-height: 670px;
+}
+
+.header__order-complete::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #ffaa00ac;
+  background-image: url(../../assets/images/order-complete-back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hide-section {
+  display: none;
+}

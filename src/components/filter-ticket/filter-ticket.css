@@ -1,0 +1,442 @@
+.sidebar__filter {
+  margin-bottom: 95px;
+  color: #fff;
+  background-color: #3e3c41;
+  width: 364px;
+  padding-top: 0.1px;
+  padding-bottom: 0.1px;
+}
+
+.filter__date {
+  min-height: 240px;
+}
+
+.filter__date-from {
+  position: relative;
+  width: 295px;
+  margin: 40px auto 25px;
+  left: -3px;
+}
+
+.filter__date-title {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+}
+
+.filter__date-from > input,
+.filter__date-to > input {
+  width: 295px;
+  height: 44px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #292929;
+  padding-left: 8px;
+  border-radius: 3px;
+  border: none;
+  background-image: url(../../assets/images/calendar.png);
+  background-repeat: no-repeat;
+  background-position: center right 17px;
+  margin-top: 4px;
+}
+
+.filter__date-to {
+  position: relative;
+  width: 295px;
+  margin: 22px auto 32px;
+}
+
+.filter__line {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+
+/* Checkbox */
+
+.filter__checkbox {
+  width: 265px;
+  margin: 30px 35px 40px 66px;
+}
+
+.checkbox__coupe,
+.checkbox__couchette-car,
+.checkbox__seat,
+.checkbox__lux,
+.checkbox__wifi,
+.checkbox__express {
+  display: flex;
+  margin-bottom: 34px;
+}
+
+.checkbox__express {
+  margin-bottom: -18px;
+}
+
+.coupe__img {
+  background-image: url(../../assets/images/coupe.png);
+}
+
+.coupe__img,
+.couchette-car__img,
+.seat__img,
+.lux__img,
+.wifi__img,
+.express__img {
+  width: 22px;
+  height: 22px;
+  margin-right: 35px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.checkbox__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-right: auto;
+}
+
+.check__element {
+  position: relative;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.check__false:before {
+  content: "";
+  position: absolute;
+  width: 72px;
+  height: 20px;
+  top: 0;
+  left: -60px;
+  background-color: #fff;
+  border-radius: 15px;
+  transition: background-color 0.4s ease;
+}
+
+.check__false:after {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: -4px;
+  left: -59px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+  transition: left 0.4s ease-in-out;
+}
+
+.check__true:before {
+  content: "";
+  position: absolute;
+  width: 72px;
+  height: 20px;
+  top: 0;
+  left: -55px;
+  background-color: #fcdc9d;
+  border-radius: 15px;
+  transition: background-color 0.4s ease;
+}
+
+.checkbox__input {
+  position: absolute;
+  clip: rect(0 0 0 0);
+}
+
+.check__true:after {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: -4px;
+  left: -10px;
+  background-color: #ffa800;
+  border-radius: 50%;
+  transition: left 0.4s ease-in-out;
+}
+
+.couchette-car__img {
+  background-image: url(../../assets/images/couchette-car.png);
+}
+
+.seat__img {
+  background-image: url(../../assets/images/seat.png);
+}
+
+.lux__img {
+  background-image: url(../../assets/images/lux.png);
+}
+
+.wifi__img {
+  background-image: url(../../assets/images/wifi.png);
+}
+
+.express__img {
+  background-image: url(../../assets/images/express.png);
+}
+
+/* PRICE FILTER */
+.filter__price-title {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  margin: 35px auto 10px 32px;
+}
+
+.price__range {
+  margin: 0 40px 32px 30px;
+}
+
+.price__range-text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 5px;
+}
+
+.range__input {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 295px;
+  height: 20px;
+  box-sizing: border-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 9px;
+  background-color: transparent;
+}
+
+.range__input-in,
+.range__input-out {
+  width: 295px;
+  height: 20px;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+  border-radius: 8px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.range__input-in {
+  transform: rotate(0deg);
+}
+
+.range__input-in::-webkit-slider-thumb,
+.range__input-out::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.range__input-in::-moz-range-thumb,
+.range__input-out::-moz-range-thumb {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.range__line {
+  position: relative;
+  width: 280px;
+  height: 20px;
+  z-index: 0;
+}
+
+.range__line-body {
+  background-color: #ffa800;
+  position: absolute;
+  top: -1px;
+  height: 20px;
+  z-index: 1;
+}
+
+.price__range-number,
+.travel-date__range-number {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.price__min {
+  position: absolute;
+  left: 0;
+}
+
+.price__start {
+  padding-right: 2px;
+}
+
+.price__end {
+  padding-left: 2px;
+}
+
+.price__max {
+  position: absolute;
+  right: 0;
+}
+
+/* Filter Date Departure */
+
+.filter__travel-date-title {
+  display: flex;
+  margin: 27px 34px 32px 35px;
+}
+
+.filter__departure-date-img {
+  background-image: url(../../assets/images/departure.png);
+}
+.filter__departure-date-img,
+.filter__return-date-img {
+  display: flex;
+  width: 32px;
+  height: 26px;
+  margin-right: 12px;
+  align-self: center;
+}
+
+.filter__travel-date-text {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.filter__date-close-down {
+  background-image: url(../../assets/images/show-up.png);
+}
+.filter__date-close-down,
+.filter__date-close-up {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  align-self: center;
+  cursor: pointer;
+}
+
+.filter__date-close-up {
+  background-image: url(../../assets/images/show-down.png);
+}
+
+.travel-date__range-departure,
+.travel-date__range-return {
+  margin: 0 35px 45px 25px;
+}
+
+.travel-date__range-text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #e5e5e5;
+  margin-bottom: 15px;
+}
+
+.range__input-travel-dates {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 300px;
+  height: 10px;
+  box-sizing: border-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+.range__input-date-in {
+  transform: rotate(0deg);
+}
+.range__input-date-out,
+.range__input-date-in {
+  width: 300px;
+  height: 10px;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+  border-radius: 8px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.range__input-date-in::-webkit-slider-thumb,
+.range__input-date-out::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.range__input-date-in::-moz-range-thumb,
+.range__input-date-out::-moz-range-thumb {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.range__travel-date-line {
+  position: relative;
+  width: 280px;
+  height: 10px;
+  z-index: 0;
+}
+
+.range__date-line-body {
+  background-color: #ffa800;
+  position: absolute;
+  top: -1px;
+  height: 10px;
+  z-index: 1;
+}
+
+.travel-date__range-number {
+  display: flex;
+  margin-top: 10px;
+}
+
+.travel-date__min {
+  position: absolute;
+  left: 0;
+}
+
+.travel-date__start {
+  padding-right: 2px;
+}
+
+.travel-date__end {
+  padding-left: 2px;
+}
+
+.travel-date__max {
+  position: absolute;
+  right: 0;
+}
+
+.filter__return-date-img {
+  background-image: url(../../assets/images/return.png);
+}

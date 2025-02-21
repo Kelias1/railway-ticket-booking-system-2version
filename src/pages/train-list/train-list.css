@@ -1,0 +1,82 @@
+.choice-train__list {
+  max-width: 959px;
+}
+
+.none__routes {
+  margin: 0 280px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  color: #000000;
+}
+
+.header__list-trains {
+  display: flex;
+  margin-bottom: 47px;
+}
+
+.list__train-found {
+  display: flex;
+}
+
+.list__train-sort {
+  display: flex;
+  position: relative;
+  margin-left: 325px;
+}
+
+.sort__select {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #3e3c41;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.list__train-sort-select {
+  position: absolute;
+  left: 135px;
+  top: -8px;
+  width: 140px;
+  background-color: #f7f5f9;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.list__train-sort-select > div {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #3e3c41;
+  padding: 9px 7px;
+  border-bottom: 1px solid #e5e5e5;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #ffca62;
+  }
+}
+
+.list__train-show {
+  display: flex;
+  margin-left: auto;
+}
+
+.list__train-show > p {
+  padding-right: 4px;
+}
+
+.list__train-found > p,
+.list__train-found > span,
+.list__train-sort > p,
+.list__train-show > p,
+.list__train-show > span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #928f94;
+  margin-right: 6px;
+}
+
+.list__train-show > span {
+  cursor: pointer;
+}

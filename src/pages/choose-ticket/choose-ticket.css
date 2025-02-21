@@ -1,0 +1,66 @@
+.sidebar__section {
+  width: 25%;
+  margin-top: 188px;
+  margin-left: 14.8%;
+  margin-bottom: 140px;
+}
+
+/* START Main Choice Train */
+
+.main__choice-train {
+  width: 70%;
+  margin-top: 190px;
+  margin-bottom: 193px;
+}
+
+/* START PAGES */
+.list-trains__footer {
+  margin-top: 151px;
+}
+
+.footer-pages {
+  display: flex;
+  float: right;
+}
+
+.footer-page__previous {
+  margin-left: auto;
+  background-image: url(../../assets/images/previous.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer-page__previous,
+.footer-page,
+.footer-page__next {
+  width: 85px;
+  height: 75px;
+  border: 2px solid #c4c4c4;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 35px;
+}
+
+.footer-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #928f94;
+}
+
+.footer-page:hover {
+  background-color: #ffa800;
+  color: #fff;
+  transition: color 0.2s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.footer-page__next {
+  background-image: url(../../assets/images/next.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* END PAGES */

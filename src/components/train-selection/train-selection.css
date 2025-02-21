@@ -1,0 +1,301 @@
+.train__option {
+  display: flex;
+  min-height: 355px;
+  margin-bottom: 46px;
+  background: #fff;
+  border: 1px solid #c4c4c4;
+  box-shadow: 0 2px 2px #0000004d;
+}
+
+.train__option2 {
+  min-height: 268px;
+}
+
+.train__name {
+  min-width: 197px;
+  background-color: #e4e0e9;
+}
+
+.train__name-img {
+  display: flex;
+  margin-top: 57px;
+  margin-left: 43px;
+  width: 86px;
+  height: 86px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  background-image: url(../../assets/images/train.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.train__name-number {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  color: #3e3c41;
+  margin: 15px auto 15px -32px;
+}
+
+.train__name-destination {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #292929;
+  text-transform: capitalize;
+  margin-left: 25px;
+}
+
+.train__destination {
+  width: 100%;
+  border-right: 1px dashed #e5e5e5;
+}
+
+.train__destination-route {
+  display: flex;
+  margin: 52px 0 0 39px;
+  padding-bottom: 10px;
+}
+
+.train__destination-return {
+  display: flex;
+  margin: 52px 0 0 39px;
+  padding-bottom: 10px;
+}
+
+.train__destination-from {
+  width: 155px;
+}
+
+.destination__time {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #000;
+}
+
+.destination__city {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #292929;
+  text-transform: capitalize;
+}
+
+.destination__station {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #928f94;
+}
+
+.train__destination-time {
+  width: 50px;
+  margin-right: 37px;
+}
+
+.travel__time {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #c4c4c4;
+}
+
+.destination__arrow {
+  display: flex;
+  margin-top: 3px;
+  margin-left: 6px;
+  width: 30px;
+  height: 20px;
+  background-image: url(../../assets/images/dir-right.png);
+}
+
+.destination__arrow-return {
+  display: flex;
+  margin-top: 7px;
+  margin-left: 6px;
+  width: 30px;
+  height: 20px;
+  background-image: url(../../assets/images/dir-left.png);
+}
+
+.train__destination-to {
+  margin-top: 3px;
+  width: 155px;
+}
+
+.train__ticket-price {
+  display: flex;
+  flex-direction: column;
+}
+
+.train__ticket-options {
+  margin: 32px 20px 0 27px;
+}
+
+.train__ticket {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 26px;
+  height: 25px;
+}
+
+.ticket__class {
+  margin-right: 19px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #3e3c41;
+}
+
+.amount__seat {
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #ffa800;
+  margin-right: 22px;
+  margin-left: auto;
+}
+
+.seat__up-show {
+  position: absolute;
+  width: 276px;
+  height: auto;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  left: -116px;
+  top: 25px;
+  padding-bottom: 23px;
+  z-index: 1;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.seat__up-show:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: -4px;
+  left: 124px;
+  transform: rotate(45deg);
+  background-color: #e5e5e5;
+}
+
+.seat__up {
+  display: flex;
+  align-items: baseline;
+  margin: 8px 17px -5px 32px;
+}
+
+.seat__ticket-price {
+  margin-left: auto;
+}
+
+.ticket__start-price {
+  display: flex;
+  align-items: baseline;
+}
+
+.start-price__number,
+.seat__ticket-price {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #2d2b2f;
+  margin: 0 5px;
+  width: 60px;
+  text-align: center;
+}
+
+.start-price__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #928f94;
+}
+
+.train__amenities {
+  display: flex;
+  justify-content: space-between;
+  width: 92px;
+  height: 20px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: 28px;
+}
+
+.train__amenities-wifi,
+.train__amenities-express,
+.train__amenities-coffee {
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.train__amenities-wifi {
+  width: 24px;
+  height: 20px;
+  background-image: url(../../assets/images/wifi.png);
+}
+
+.train__amenities-express {
+  width: 20px;
+  height: 20px;
+  background-image: url(../../assets/images/express.png);
+}
+
+.train__amenities-coffee {
+  width: 20px;
+  height: 20px;
+  background-image: url(../../assets/images/cup.png);
+}
+
+.amenities-wifi__includes {
+  width: 20px;
+  height: 20px;
+  background-image: url(../../assets/images/wifi-includes.png);
+}
+
+.amenities-express__includes {
+  width: 20px;
+  height: 20px;
+  background-image: url(../../assets/images/express-includes.png);
+}
+
+.amenities-coffee__includes {
+  width: 20px;
+  height: 20px;
+  background-image: url(../../assets/images/coffee-includes.png);
+}
+
+.choice-train__btn {
+  margin: 18px 20px 23px 35px;
+  width: 228px;
+  padding: 6px;
+  background-color: #ffa800;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.choice-train__btn:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transition: filter 0.2s ease-in-out;
+}
+
+.currency-symbol {
+  width: 16px;
+  height: 19px;
+  background-image: url(../../assets/images/currency-symbol.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  padding-top: 4px;
+  background-size: contain;
+}

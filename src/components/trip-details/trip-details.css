@@ -1,0 +1,313 @@
+.sidebar__trip-details {
+  width: 361px;
+  background-color: #3e3c41;
+}
+
+.details__line {
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.details__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 36px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.details__title-text {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #e5e5e5;
+}
+
+.details__departure {
+  margin: 18px 26px 62px 30px;
+}
+
+.details__return {
+  margin: 18px 26px 46px 30px;
+}
+
+.details__departure-head,
+.details__return-head {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 55px;
+}
+
+.details__return-head {
+  margin-bottom: 35px;
+}
+
+.departure__head-img,
+.return__head-img {
+  display: flex;
+  width: 32px;
+  height: 26px;
+  cursor: pointer;
+  align-self: self-end;
+}
+
+.departure__head-img {
+  background-image: url(../../assets/images/departure.png);
+}
+
+.return__head-img {
+  background-image: url(../../assets/images/return.png);
+}
+
+.details__head-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #ffffff;
+  margin-left: 12px;
+}
+
+.departure__head-date {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+.details__head-open {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../assets/images/show-down.png);
+  cursor: pointer;
+}
+
+.details__train-number,
+.details__train-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details__train-title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #e5e5e5;
+}
+
+.departure__train-number,
+.departure__train-text {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: right;
+  color: #ffffff;
+}
+
+.departure__train-text {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.details__train-name {
+  margin-top: 13px;
+}
+
+.details__wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  position: relative;
+}
+
+.departure__time {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.departure__date {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #928f94;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.details__city-wrap {
+  padding-top: 5px;
+}
+
+.departure__city {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.departure__station,
+.details__station {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #928f94;
+}
+
+.details__arrow {
+  position: absolute;
+  top: -24px;
+  left: 132px;
+}
+
+.departure__travel-time {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #e5e5e5;
+}
+
+.departure__direction-arrow,
+.return__direction-arrow {
+  display: flex;
+  width: 30px;
+  height: 20px;
+  margin: 4px auto;
+}
+
+.departure__direction-arrow {
+  background-image: url(../../assets/images/dir-right.png);
+}
+
+.return__direction-arrow {
+  background-image: url(../../assets/images/dir-left.png);
+}
+
+.details__right-column {
+  text-align: right;
+}
+
+.details__passengers {
+  margin: 14px 27px 46px 28px;
+}
+
+.details__passengers-head {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 30px;
+}
+
+.passenger__head-img {
+  display: flex;
+  width: 26px;
+  height: 26px;
+  background-image: url(../../assets/images/man.png);
+}
+
+.passenger__head-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  color: #ffffff;
+  margin-left: 17px;
+  margin-right: auto;
+}
+
+.passenger__head-open-down,
+.passenger__head-open-up {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.passenger__head-open-down {
+  background-image: url(../../assets/images/show-down.png);
+}
+
+.passenger__head-open-up {
+  background-image: url(../../assets/images/show-up.png);
+}
+
+.passenger__amount-price {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.passenger__amount {
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #e5e5e5;
+  margin-right: auto;
+}
+
+.amount {
+  margin-right: 5px;
+}
+
+.passenger__price {
+  display: flex;
+  align-items: baseline;
+}
+
+.passenger__price-text {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: right;
+  color: #ffffff;
+}
+
+.passenger__currency-symbol {
+  display: flex;
+  margin-left: 7px;
+  width: 14px;
+  height: 17px;
+  background-image: url(../../assets/images/currency-symbol.png);
+  background-size: cover;
+}
+
+.details__total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 109px;
+}
+
+.details__total-line {
+  display: flex;
+}
+
+.details__total-text {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #ffffff;
+  align-self: flex-end;
+  margin-right: 70px;
+}
+
+.total__price-text {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #ffa800;
+}
+
+.details__total-currency-symbol {
+  display: flex;
+  width: 30px;
+  height: 35px;
+  background-image: url(../../assets/images/total-currency-symbol.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  margin-left: 10px;
+  align-self: center;
+}

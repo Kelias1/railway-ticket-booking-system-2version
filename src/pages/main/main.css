@@ -1,0 +1,152 @@
+.container__main__sidebar {
+  display: flex;
+  background-color: #f7f5f9;
+}
+
+.main-sidebar {
+  display: flex;
+  width: 100%;
+}
+
+.main__about {
+  height: 420px;
+}
+
+.about__title {
+  width: 347px;
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #292929;
+  margin: 142px auto auto 13.5%;
+}
+
+.about__container {
+  display: flex;
+  width: 90%;
+}
+
+.about__line {
+  margin-top: 34px;
+  margin-left: 15%;
+  width: 12px;
+  height: 231px;
+  background: #ffa800;
+}
+
+.about__desc-wrap {
+  width: 76.4%;
+}
+
+.about__desc:nth-child(1) {
+  margin-top: 30px;
+}
+
+.about__desc {
+  margin-left: 15px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #292929;
+}
+
+.about__desc span {
+  font-weight: 700;
+}
+
+/* How it works section */
+
+.main__how-it-works {
+  position: relative;
+  min-height: 575px;
+  background-image: linear-gradient(#ffd60080, #ffd60080),
+    url(../../assets/images/how-it-works.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: #ffd600;
+  background-blend-mode: multiply;
+  opacity: 0.8;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.how-it-works__header {
+  display: flex;
+  width: 100%;
+}
+
+.how-it-works__title {
+  margin: 70px auto auto 13%;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.how-it-works__btn {
+  width: 325px;
+  height: 60px;
+  margin-top: 62px;
+  margin-right: 14%;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  color: #fff;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.how-it-works__btn:hover {
+  background-color: #ffca62;
+  color: #2d2b2f;
+  transition: color 0.3s linear;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.how-it-works__items {
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.how-it-works__item {
+  margin-top: 97px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.how-it-works__first-img,
+.how-it-works__second-img,
+.how-it-works__third-img {
+  width: 162px;
+  height: 162px;
+}
+
+.how-it-works__first-img {
+  background-image: url(../../assets/images/computer.png);
+}
+
+.how-it-works__second-img {
+  background-image: url(../../assets/images/office.png);
+}
+
+.how-it-works__third-img {
+  background-image: url(../../assets/images/world.png);
+}
+
+.how-it-works__desc {
+  margin-top: 33px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #fff;
+}
